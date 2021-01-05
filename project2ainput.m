@@ -2,7 +2,8 @@ clc;
 clear all;
 close all;
 %rgb image input 
-f=imread('C:\Users\venkatesh\Desktop\lena.png');
+%path to sample image to perform convolution
+f=imread('C:\User.....');
 f=rgb2gray(f);  % incase of grey image input
 
 %taking the kernal as input

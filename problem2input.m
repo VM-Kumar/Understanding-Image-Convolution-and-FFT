@@ -1,5 +1,6 @@
 clc;
-image=imread('C:\Users\venkatesh\Desktop\lena.png');
+% give the path to sample image
+image=imread('C:\Users\..........');
  image1=rgb2gray(im2double(image));
  %show original image
  figure(1);

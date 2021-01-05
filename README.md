@@ -13,6 +13,7 @@ Input: 9x9 image pixels, Kernel: 3X3, Stride:3, Output: 3X3 image. Only a part o
 2D FFT is performed by performing 1D FFT along all the rows of the image and on the resultant performing 1DFFT along all the columns. Or along columns first and then the rows. This too is described in detailed in the description_report.\
 
 The **content** is organized as follows:\
+-------------------------------------------
 1. 
 
 

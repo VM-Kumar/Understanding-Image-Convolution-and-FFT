@@ -16,7 +16,7 @@ Input: 9x9 image pixels, Kernel: 3X3, Stride:3, Output: 3X3 image. Only a part o
 The **content** is organized as follows:\
 -------------------------------------------\
 1. [description_report.pdf](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/description_report.pdf) : detailed report on all methods used including padding of images before convolution and sample input and outputs for various filters.
-2. [myconvolve_2D.m](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/myconvolve_2D.m) : function to perform image convolution with kernel 
+2. [myconvolve_2D.m](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/myconvolve_2D.m) : function to perform image convolution with kernel. This is a program only for 3X3 kernel with any image. 
 3. [D_2_fft.m](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/D_2_fft.m) : function to perform image FFT using 1D FFT
 4. [problem1check.m](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/problem1check.m) : program to call my_convolve_2D function and check its functioning with a blank image and kernel.
 5. [problem1input.m](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/problem1input.m) : program to call my_convolve_2D function and check its functioning with a sample image and kernel.

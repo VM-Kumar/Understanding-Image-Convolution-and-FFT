@@ -10,11 +10,11 @@ Input: 9x9 image pixels, Kernel: 3X3, Stride:3, Output: 3X3 image. Only a part o
 
 **2-D FFT:**\
 ----------------\
-2D FFT is performed by performing 1D FFT along all the rows of the image and on the resultant performing 1DFFT along all the columns. Or along columns first and then the rows. This too is described in detailed in the description_report.\
+2D FFT is performed by performing 1D FFT along all the rows of the image and on the resultant performing 1DFFT along all the columns. Or along columns first and then the rows. This too is described in detailed in the description_report.
 
 
 The **content** is organized as follows:\
--------------------------------------------\
+-------------------------------------------
 1. [description_report.pdf](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/description_report.pdf) : detailed report on all methods used including padding of images before convolution and sample input and outputs for various filters.
 2. [myconvolve_2D.m](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/myconvolve_2D.m) : function to perform image convolution with kernel. This is a program only for 3X3 kernel with any image. 
 3. [D_2_fft.m](https://github.com/VM-Kumar/Understanding-Image-Convolution-and-FFT/blob/main/D_2_fft.m) : function to perform image FFT using 1D FFT
